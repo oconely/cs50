@@ -22,4 +22,10 @@ function stringSearch(longStr, shortStr) {
   return count;
 }
 
-console.log(stringSearch('lorie loled', 'lo'));
+// console.log(stringSearch('lorie loled', 'lo'));
+
+function stringSearch_refactor(longStr, shortStr) {
+
+}
+
+stringSearch_refactor('lorie loled', 'lo');

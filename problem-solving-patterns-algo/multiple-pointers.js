@@ -86,7 +86,9 @@ function countUniqueValues(arr) {
   return i + 1;
 }
 
-const res = countUniqueValues([
-  1, 1, 1, 1, 1, 1, 5, 6, 6, 6, 6, 8, 9, 20, 24, 45,
-]);
-console.log(res);
+// countUniqueValues([1, 1, 1, 1, 1, 1, 5, 6, 6, 6, 6, 8, 9, 20, 24, 45]);
+console.assert(
+  countUniqueValues([1, 1, 1, 1, 1, 1, 5, 6, 6, 6, 6, 8, 9, 20, 24, 45]),
+  'should be 8'
+);
+console.assert(countUniqueValues([1, 1, 1, 1, 1, 1]) === 0, 'should be 0');
